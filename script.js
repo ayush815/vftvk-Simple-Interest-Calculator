@@ -6,7 +6,7 @@ function compute()
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
     if(principal<=0){
-        alert("Enter a positive amount");
+        alert("Enter a Positive Number");
     }
     else{
         interest;
